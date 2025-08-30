@@ -1,0 +1,49 @@
+@font-face {
+    font-family: CTU;
+    src: url("CTU.ttf")
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #1B244A;
+    font-family: CTU;
+    color: whitesmoke;
+}
+
+h3 {
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    background: none;
+    border: 1px solid #F3F4F6;
+    border-radius: 5px;
+    padding: 6px 8px;
+    font-family: CTU;
+    color: #F3F4F6;
+}
+
+#restart-btn {
+    display: flex;
+    margin: 12px auto;
+    width: 100px;
+    padding: 6px 8px;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 0px 20px 20px 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
